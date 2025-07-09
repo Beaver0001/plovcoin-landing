@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.whitepaper-section {
+  scroll-margin-top: 80px;
+}
+
+.whitepaper-section h2 {
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.whitepaper-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whitepaper-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+}
+
+@keyframes meme-bounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.meme-icon {
+  animation: meme-bounce 2s infinite;
+}
+
+button, a {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, a:hover {
+  transform: scale(1.02);
+}
+
+canvas {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.card p {
+  overflow-wrap: break-word;
+}
+
+/* Timeline Styles */
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(to bottom, #2563eb, #7c3aed);
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.timeline-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline-item .card {
+  width: 100%;
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2563eb;
+  position: relative;
+  z-index: 10;
+}
+
+/* PlovCoin Pulse Animation */
+@keyframes plov-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.plov-pulse {
+  display: inline;
+  animation: plov-pulse 2s infinite;
+}
