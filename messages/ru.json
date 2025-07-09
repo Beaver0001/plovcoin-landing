@@ -1,0 +1,37 @@
+{
+  "Home": {
+    "title": "PlovCoin ($PLOV): Самый вкусный мем-коин на Solana",
+    "description": "Присоединяйтесь к PlovArmy и окунитесь в космический плов-фест! $PLOV здесь, чтобы оживить Web3 мемами и хайпом.",
+    "nav": {
+      "whitepaper": "Белая бумага",
+      "tokenomics": "Токеномика",
+      "airdrop": "Аирдроп",
+      "community": "Сообщество",
+      "roadmap": "Дорожная карта"
+    },
+    "download_pdf": "Скачать PDF",
+    "join_plovarmy": "Присоединиться к PlovArmy",
+    "read_whitepaper": "Читать белую бумагу",
+    "features": {
+      "solana": {
+        "title": "На базе Solana",
+        "description": "Создан на стандарте SPL Solana с планами на мультичейн в 2027 году."
+      },
+      "decentralized": {
+        "title": "Децентрализованный",
+        "description": "Mint Authority отключена, Update Authority управляется PlovDAO в 2026 году."
+      },
+      "community": {
+        "title": "PlovArmy",
+        "description": "Присоединяйтесь через Phantom/Solflare, обменивайте на Jupiter и станьте частью галактической PlovArmy."
+      }
+    },
+    "footer": {
+      "whitepaper": "Белая бумага",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия использования",
+      "support": "Поддержка",
+      "contact": "Связаться с нами"
+    }
+  }
+}

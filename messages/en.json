@@ -1,0 +1,37 @@
+{
+  "Home": {
+    "title": "PlovCoin ($PLOV): The Tastiest Meme Coin on Solana",
+    "description": "Join PlovArmy and dive into the cosmic plov-fest! $PLOV is here to spice up Web3 with memes and hype.",
+    "nav": {
+      "whitepaper": "Whitepaper",
+      "tokenomics": "Tokenomics",
+      "airdrop": "Airdrop",
+      "community": "Community",
+      "roadmap": "Roadmap"
+    },
+    "download_pdf": "Download PDF",
+    "join_plovarmy": "Join PlovArmy",
+    "read_whitepaper": "Read Whitepaper",
+    "features": {
+      "solana": {
+        "title": "Solana-Powered",
+        "description": "Built on Solana’s SPL standard with plans for multichain in 2027."
+      },
+      "decentralized": {
+        "title": "Decentralized",
+        "description": "Mint Authority disabled, Update Authority managed by PlovDAO in 2026."
+      },
+      "community": {
+        "title": "PlovArmy",
+        "description": "Join via Phantom/Solflare, swap on Jupiter, and become part of the galactic PlovArmy."
+      }
+    },
+    "footer": {
+      "whitepaper": "Whitepaper",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "support": "Support",
+      "contact": "Contact Us"
+    }
+  }
+}
